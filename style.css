@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background: radial-gradient(rgb(61, 63, 60), #000);
+	background-attachment: fixed;
+	font-family: sans-serif;
+	text-align: center;
+	text-shadow: 0 0 20px white;
+}
+
+div {
+	width: 100px;
+	height: 800px;
+}
