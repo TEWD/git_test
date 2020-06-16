@@ -9,7 +9,23 @@ body {
 	text-shadow: 0 0 20px white;
 }
 
-div {
-	width: 100px;
-	height: 800px;
+#useless {
+	border: solid 1px olivedrab;
+	border-radius: 2px;
+	min-width: 100px;
+	min-height: 25px;
+	color: white;
+	background: transparent;
+	font-size: 16px;
+	outline: none;
+	text-shadow: 0 0 20px white;
+	box-shadow: 0 0 10px olivedrab, 0 0 10px inset olivedrab;
+	transition: 0.5s;
+}
+
+#useless:hover {
+	min-width: 50%;
+	min-height: 30px;
+	background: olivedrab;
+	letter-spacing: 2px;
 }
