@@ -16,7 +16,7 @@ body {
 }
 
 #useless {
-	border: solid 1px olivedrab;
+	border: solid 2px #05668d;
 	border-radius: 2px;
 	min-width: 100px;
 	min-height: 25px;
@@ -30,10 +30,28 @@ body {
 #useless:hover {
 	min-width: 50%;
 	min-height: 30px;
-	background: olivedrab;
+	background: #05668d;
 	letter-spacing: 2px;
 }
 
 #useless:active {
 	transform: translateY(5px);
+}
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #354f52;
+}
+
+::-webkit-scrollbar-thumb {
+	border: solid 1px #05668d;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #05668d;
 }
