@@ -4,11 +4,11 @@ body {
 	color: white;
 	background: linear-gradient(
 		-40deg,
-		#05668d 40%,
-		#00a896 40% 60%,
-		#028090 60% 62%,
-		#02c39a 62% 80%,
-		#f0f3bd 80%
+		#2f3e46 40%,
+		#52796f 40% 60%,
+		#354f52 60% 62%,
+		#84a98c 62% 80%,
+		#cad2c5 80%
 		);
 	background-attachment: fixed;
 	font-family: sans-serif;
