@@ -1,7 +1,11 @@
 let btn = document.querySelector("#useless");
-let bup = document.querySelector("#bup");
+const ts = document.querySelector("#timestamp");
 
 btn.addEventListener('click',()  => {
+	ts.classList.remove('animate');
+	void ts.offsetWidth
+	ts.classList.add('animate');
+
 	let date = new Date();
-	bup.innerHTML = date.getHours()+" : "+date.getMinutes()+" : "+date.getSeconds()
+	ts.innerText = date.getHours()+" : "+date.getMinutes()+" : "+date.getSeconds()
 })
