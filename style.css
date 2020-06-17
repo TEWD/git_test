@@ -20,7 +20,7 @@ body {
 	outline: none;
 	text-shadow: 0 0 20px white;
 	box-shadow: 0 0 10px olivedrab, 0 0 10px inset olivedrab;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 #useless:hover {
@@ -28,4 +28,8 @@ body {
 	min-height: 30px;
 	background: olivedrab;
 	letter-spacing: 2px;
+}
+
+#useless:active {
+	transform: translateY(5px);
 }
