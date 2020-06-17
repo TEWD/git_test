@@ -2,11 +2,17 @@ body {
 	margin: 0;
 	padding: 0;
 	color: white;
-	background: radial-gradient(rgb(61, 63, 60), #000);
+	background: linear-gradient(
+		-40deg,
+		#0D1B1E 40%,
+		#2C6E49 40% 60%,
+		#1D4534 60% 62%,
+		#4C956C 62% 80%,
+		#FEFEE3 80%
+		);
 	background-attachment: fixed;
 	font-family: sans-serif;
 	text-align: center;
-	text-shadow: 0 0 20px white;
 }
 
 #useless {
@@ -18,8 +24,6 @@ body {
 	background: transparent;
 	font-size: 16px;
 	outline: none;
-	text-shadow: 0 0 20px white;
-	box-shadow: 0 0 10px olivedrab, 0 0 10px inset olivedrab;
 	transition: 0.3s;
 }
 
