@@ -2,6 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	color: white;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+body#green-bg {
 	background: linear-gradient(
 		-40deg,
 		#2f3e46 40%,
@@ -10,8 +15,17 @@ body {
 		#84a98c 62% 80%,
 		#cad2c5 80%
 		);
-	background-attachment: fixed;
-	font-family: sans-serif;
+}
+body#red-bg {
+	background: linear-gradient(
+		-40deg,
+		#011627 40%,
+		#2ec4b6 40% 60%,
+		#e71d36 60% 62%,
+		#ff9f1c 62% 80%,
+		#fdfffc 80%
+		/* fdfffc */
+		);
 }
 
 main {
@@ -19,10 +33,10 @@ main {
 }
 
 p.desc {
-	/* display: inline-block; */
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
+	max-width: 60%;
 }
 
 hr {
@@ -30,6 +44,10 @@ hr {
 	border-image-slice: 1;
 	border-width: 2px;
 	border-image-source: linear-gradient(to right, transparent 10%, #354f52 50%, transparent 90%);
+}
+
+a {
+	color: #708c9b;
 }
 
 
