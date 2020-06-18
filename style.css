@@ -2,6 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	color: white;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+body#green-bg {
 	background: linear-gradient(
 		-40deg,
 		#2f3e46 40%,
@@ -10,8 +15,16 @@ body {
 		#84a98c 62% 80%,
 		#cad2c5 80%
 		);
-	background-attachment: fixed;
-	font-family: sans-serif;
+}
+body#red-bg {
+	background: linear-gradient(
+		-40deg,
+		#003049 40%,
+		#f77f00 40% 60%,
+		#d62828 60% 62%,
+		#fcbf49 62% 80%,
+		#eae2b7 80%
+		);
 }
 
 main {
