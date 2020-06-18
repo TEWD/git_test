@@ -19,11 +19,11 @@ body#green-bg {
 body#red-bg {
 	background: linear-gradient(
 		-40deg,
-		#003049 40%,
-		#f77f00 40% 60%,
-		#d62828 60% 62%,
-		#fcbf49 62% 80%,
-		#eae2b7 80%
+		#264653 40%,
+		#e9c46a 40% 60%,
+		#2a9d8f 60% 62%,
+		#f4a261 62% 80%,
+		#e76f51 80%
 		);
 }
 
