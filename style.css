@@ -7,6 +7,15 @@ body {
 }
 
 body#green-bg {
+	background: #2f3e46;
+}
+body#green-bg::before {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: -99;
+	height: 600px;
+	width: 100%;
 	background: linear-gradient(
 		-40deg,
 		#2f3e46 40%,
@@ -14,17 +23,27 @@ body#green-bg {
 		#354f52 60% 62%,
 		#84a98c 62% 80%,
 		#cad2c5 80%
-		);
+		)
 }
+
 body#red-bg {
+	background: #264653;
+}
+body#red-bg::before {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: -99;
+	height: 600px;
+	width: 100%;
 	background: linear-gradient(
-		-40deg,
+		40deg,
 		#264653 40%,
 		#2a9d8f 40% 60%,
 		#e9c46a 60% 62%,
 		#f4a261 62% 80%,
 		#e76f51 80%
-		);
+		)
 }
 
 main {
@@ -42,7 +61,12 @@ hr {
 	border: 10px solid;
 	border-image-slice: 1;
 	border-width: 2px;
-	border-image-source: linear-gradient(to right, transparent 10%, #354f52 50%, transparent 90%);
+	border-image-source: linear-gradient(
+		to right,
+		transparent 10%,
+		#31313dda 50%,
+		transparent 90%
+		);
 }
 
 a {
