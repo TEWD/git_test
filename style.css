@@ -12,7 +12,24 @@ body {
 		);
 	background-attachment: fixed;
 	font-family: sans-serif;
+}
+
+main {
 	text-align: center;
+}
+
+p.desc {
+	/* display: inline-block; */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+hr {
+	border: 10px solid;
+	border-image-slice: 1;
+	border-width: 2px;
+	border-image-source: linear-gradient(to right, transparent 10%, #354f52 50%, transparent 90%);
 }
 
 
