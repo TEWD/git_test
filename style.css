@@ -20,8 +20,8 @@ body#red-bg {
 	background: linear-gradient(
 		-40deg,
 		#264653 40%,
-		#e9c46a 40% 60%,
-		#2a9d8f 60% 62%,
+		#2a9d8f 40% 60%,
+		#e9c46a 60% 62%,
 		#f4a261 62% 80%,
 		#e76f51 80%
 		);
